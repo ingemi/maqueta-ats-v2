@@ -25,3 +25,31 @@ html,body,.fill{
 .profile-data{
 	margin-top:30px;
 }
+
+.profile-stats .progress{
+	margin-bottom: 3px;
+}
+
+.progress-bar-default {
+    background-color: #888888;
+}
+
+.form-muted{
+	background-color: #f5f5f5;
+}
+.profile-item{
+	padding: 20px 10px 20px 10px;
+	border: solid black 2px;
+}
+
+.social-icons{
+	margin-bottom: 15px;
+}
+
+.clear-padding{
+	padding:0px;
+}
+
+.link-job-select{
+	width: 300px;
+}

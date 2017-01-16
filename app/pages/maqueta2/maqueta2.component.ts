@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
 })
 export class Maqueta2Component  {
      name = 'Maqueta2'; 
+     profiles: Array<{}>= [
+		{id:1},{id:1},{id:1},{id:1},{id:1},{id:1},{id:1}
+	] 
 }

@@ -12,6 +12,9 @@ var core_1 = require('@angular/core');
 var Maqueta2Component = (function () {
     function Maqueta2Component() {
         this.name = 'Maqueta2';
+        this.profiles = [
+            { id: 1 }, { id: 1 }, { id: 1 }, { id: 1 }, { id: 1 }, { id: 1 }, { id: 1 }
+        ];
     }
     Maqueta2Component = __decorate([
         core_1.Component({

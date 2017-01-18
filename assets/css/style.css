@@ -72,3 +72,69 @@ html,body,.fill{
 	vertical-align: middle;
     line-height: 45px;
 }
+
+/* Pop over */
+.profile-exp {
+  display: inline-block;
+  position: relative;
+}
+
+.popover {
+	background-color: #fff;
+	border-radius: 5px;
+	bottom: 42px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	color: black;
+	display: none;
+	left: 0px;
+	padding: 10px 25px 10px 25px;
+	position: absolute;
+	letter-spacing: 1px;
+	min-width: 350px;
+	height: 150px;
+	z-index: 4;  
+}
+
+.profile-exp:hover .popover{
+	display: block;
+	-webkit-animation: fade-in .3s linear 1, move-up .3s linear 1;
+	-moz-animation: fade-in .3s linear 1, move-up .3s linear 1;
+	-ms-animation: fade-in .3s linear 1, move-up .3s linear 1;
+}
+
+@-webkit-keyframes fade-in {
+	from   { opacity: 0; }
+	to { opacity: 1; }
+}
+@-moz-keyframes fade-in {
+	from   { opacity: 0; }
+	to { opacity: 1; }
+}
+@-ms-keyframes fade-in {
+	from   { opacity: 0; }
+	to { opacity: 1; }
+}
+@-webkit-keyframes move-up {
+	from   { bottom: 30px; }
+	to { bottom: 42px; }
+}
+@-moz-keyframes move-up {
+	from   { bottom: 30px; }
+	to { bottom: 42px; }
+}
+@-ms-keyframes move-up {
+	from   { bottom: 30px; }
+	to { bottom: 42px; }
+}
+
+.circle {
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	border:solid thin; 
+	display: inline-block;
+}
+
+.circle.actual{
+	background-color: black;
+}
